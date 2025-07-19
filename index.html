@@ -1,140 +1,301 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarat.S</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sarat Sonsuk - Python Developer & Library Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Sarat Sonsuk</h1>
-        <p>Full Stack Developer | React Specialist | Node.js Engineer</p>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Sarat Sonsuk</h1>
+                <p class="title">Python Developer & Library Creator</p>
+                <p class="subtitle">25 years of programming experience • Part-time developer passionate about Python, FinTech & AI</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="mailto:b@candythink.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Python Libraries</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Languages</div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">เกี่ยวกับฉัน</a></li>
-            <li><a href="#skills">ทักษะ</a></li>
-            <li><a href="#projects">โปรเจกต์</a></li>
-            <li><a href="#experience">ประสบการณ์</a></li>
-            <li><a href="#contact">ติดต่อ</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="about">
-            <h2>เกี่ยวกับฉัน</h2>
-            <div class="info-box">
-                <img src="/api/placeholder/200/200" alt="โปรไฟล์" class="profile-img">
-                <div class="profile-info">
-                    <h3>สวัสดีครับ 👋</h3>
-                    <p>ผมเป็น Full Stack Developer ที่มีประสบการณ์ 5 ปีในการพัฒนาเว็บแอปพลิเคชัน โดยเฉพาะด้าน React และ Node.js ชอบเรียนรู้เทคโนโลยีใหม่ๆ และแก้ไขปัญหาที่ท้าทาย</p>
-                    <p>ปัจจุบันทำงานในตำแหน่ง Senior Developer ที่บริษัท Tech Solution Thailand และรับงาน Freelance ในเวลาว่าง</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>ทักษะและความเชี่ยวชาญ</h2>
-            <div class="skills-grid">
-                <div class="skill-item">Frontend
-                    <ul>
-                        <li>React</li>
-                        <li>Next.js</li>
-                        <li>TypeScript</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                </div>
-                <div class="skill-item">Backend
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>NestJS</li>
-                        <li>MongoDB</li>
-                    </ul>
-                </div>
-                <div class="skill-item">DevOps
-                    <ul>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                        <li>CI/CD</li>
-                        <li>Git</li>
-                    </ul>
-                </div>
-                <div class="skill-item">อื่นๆ
-                    <ul>
-                        <li>Agile/Scrum</li>
-                        <li>REST API</li>
-                        <li>GraphQL</li>
-                        <li>Testing</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>โปรเจกต์ที่น่าสนใจ</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-card">
-                    <img src="/api/placeholder/300/180" alt="โปรเจกต์ 1">
-                    <h3>ระบบจัดการร้านอาหาร</h3>
-                    <p>แพลตฟอร์มจัดการร้านอาหารแบบครบวงจร รองรับการจองโต๊ะ สั่งอาหาร และระบบสมาชิก</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">Docker</span>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="profile-image">
+                        <img src="https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/465891952_10221032425719304_8725490164002548361_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1sGlk2zoLI4Q7kNvwFcIdmr&_nc_oc=AdmbwCRhe2ryt4eAYyO_2PFhVPAXdiERwsggL2xvbCdsb2QlXo7KyxU8RpWTD0DJtLNmZUr1TzTP2g91C9uMyTPD&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=UWfmhTWCt8bVU_Xx5vnw7g&oh=00_AfQ3JwQ8ImWLYh1E8XlnCMy35LC6cTxG-XYqu7j29PwRTQ&oe=688124B6" alt="Sarat Sonsuk - Python Developer" />
+                    </div>
+                    
+                    <p>I'm a part-time developer with 25 years of programming experience, passionate about creating useful Python libraries and financial technology solutions. Based in Bangkok, Thailand, I balance my love for development with being a full-time parent to my little kids.</p>
+                    
+                    <p>My journey in programming started as a hobby and grew into creating production-ready libraries that developers use worldwide. I'm self-taught through internet resources and books, specializing in Python development with interests in FinTech, AI, and IoT.</p>
+                    
+                    <div class="highlights">
+                        <div class="highlight">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bangkok, Thailand</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Self-taught Developer</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-heart"></i>
+                            <span>Full-time Parent</span>
+                        </div>
                     </div>
                 </div>
-                <div class="portfolio-card">
-                    <img src="/api/placeholder/300/180" alt="โปรเจกต์ 2">
-                    <h3>แอพติดตามค่าใช้จ่าย</h3>
-                    <p>แอพพลิเคชันบันทึกและวิเคราะห์ค่าใช้จ่ายส่วนบุคคล พร้อมระบบวิเคราะห์และรายงานอัตโนมัติ</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Next.js</span>
-                        <span class="tech-tag">TypeScript</span>
-                        <span class="tech-tag">Prisma</span>
-                        <span class="tech-tag">AWS</span>
+                
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag primary">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Rust</span>
+                                <span class="skill-tag">C/C++</span>
+                                <span class="skill-tag">VB</span>
+                                <span class="skill-tag">Pine Script</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4>Specialties</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag primary">Library Development</span>
+                                <span class="skill-tag">API Integration</span>
+                                <span class="skill-tag">Async Programming</span>
+                                <span class="skill-tag">Type Safety</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4>Interests</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">FinTech</span>
+                                <span class="skill-tag">AI/ML</span>
+                                <span class="skill-tag">IoT</span>
+                                <span class="skill-tag">Trading</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience">
-            <h2>ประสบการณ์ทำงาน</h2>
-            <div class="portfolio-card">
-                <h3>Senior Developer - Tech Solution Thailand</h3>
-                <p>2021 - ปัจจุบัน</p>
-                <ul>
-                    <li>พัฒนาและดูแลระบบ E-commerce ที่มีผู้ใช้มากกว่า 100,000 คน</li>
-                    <li>นำทีมในการปรับปรุงประสิทธิภาพระบบ ลดเวลาโหลดลง 40%</li>
-                    <li>ออกแบบและพัฒนา Microservices Architecture</li>
-                </ul>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2><i class="fas fa-rocket"></i> Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="project-meta">
+                            <h3>python-result-type</h3>
+                            <p class="project-subtitle">Functional Programming Result Type Library</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://pypi.org/project/python-result-type/" target="_blank" class="link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/lumduan/python-result-type" target="_blank" class="link-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-description">
+                        <p>A functional programming Result type for Python with Success/Failure variants and async support. Features intuitive API with Rust-like aliases, type safety, chainable operations, and zero dependencies.</p>
+                        
+                        <div class="project-features">
+                            <span class="feature"><i class="fas fa-shield-alt"></i> Type Safe</span>
+                            <span class="feature"><i class="fas fa-link"></i> Chainable Operations</span>
+                            <span class="feature"><i class="fas fa-sync"></i> Async Support</span>
+                            <span class="feature"><i class="fas fa-box"></i> Zero Dependencies</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Type Hints</span>
+                        <span class="tech-tag">Async/Await</span>
+                        <span class="tech-tag">Functional Programming</span>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="project-meta">
+                            <h3>linekit</h3>
+                            <p class="project-subtitle">Comprehensive LINE API Integration Library</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://pypi.org/project/linekit/" target="_blank" class="link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/lumduan/linekit" target="_blank" class="link-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-description">
+                        <p>Enhanced LINE API integration library with FlexMessage components, full type safety, multicast messaging, webhook handling, and comprehensive features for LINE bot development.</p>
+                        
+                        <div class="project-features">
+                            <span class="feature"><i class="fas fa-users"></i> Multicast Messages</span>
+                            <span class="feature"><i class="fas fa-palette"></i> Flex Messages</span>
+                            <span class="feature"><i class="fas fa-webhook"></i> Webhook Handling</span>
+                            <span class="feature"><i class="fas fa-shield-alt"></i> Type Safety</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pydantic</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">LINE API</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-meta">
+                            <h3>TradingView Scripts</h3>
+                            <p class="project-subtitle">Pine Script Trading Indicators</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.tradingview.com/u/candythink/" target="_blank" class="link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-description">
+                        <p>Custom trading indicators and strategies developed in Pine Script for TradingView platform. Available for community use and discussion.</p>
+                    </div>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Pine Script</span>
+                        <span class="tech-tag">TradingView</span>
+                        <span class="tech-tag">Financial Analysis</span>
+                    </div>
+                </div>
             </div>
-            <div class="portfolio-card">
-                <h3>Full Stack Developer - Digital Express Co., Ltd.</h3>
-                <p>2019 - 2021</p>
-                <ul>
-                    <li>พัฒนาระบบจัดการภายในองค์กรด้วย React และ Node.js</li>
-                    <li>ดูแลระบบ CI/CD และ Cloud Infrastructure</li>
-                    <li>สอนและแนะนำ Junior Developers</li>
-                </ul>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="github" class="github-stats">
+        <div class="container">
+            <h2><i class="fab fa-github"></i> GitHub Activity</h2>
+            <div class="github-content">
+                <div class="github-cards">
+                    <img src="https://github-readme-stats.vercel.app/api?username=lumduan&show_icons=true&theme=dark&hide_border=true&bg_color=1a1a2e&title_color=4CAF50&text_color=ffffff&icon_color=4CAF50" alt="GitHub Stats" />
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lumduan&layout=compact&theme=dark&hide_border=true&bg_color=1a1a2e&title_color=4CAF50&text_color=ffffff" alt="Most Used Languages" />
+                </div>
+                <div class="github-info">
+                    <h3>Open Source Contributions</h3>
+                    <p>I maintain several Python libraries and am interested in contributing to more open source projects in the future. My focus is on creating developer-friendly tools with excellent type safety and documentation.</p>
+                    <a href="https://github.com/lumduan" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> View GitHub Profile
+                    </a>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>ช่องทางการติดต่อ</h2>
-            <p>📧 Email: somchai.code@example.com</p>
-            <p>📱 โทรศัพท์: 081-234-5678</p>
-            <p>💼 LinkedIn: linkedin.com/in/somchaicode</p>
-            <p>🐱 GitHub: github.com/somchaicode</p>
-        </section>
-    </main>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2><i class="fas fa-envelope"></i> Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always open to discussing Python development, library design, FinTech projects, or trading strategies. Feel free to reach out if you have questions about my libraries or want to collaborate on interesting projects.</p>
+                    
+                    <div class="contact-note">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Currently focused on part-time development opportunities that allow flexibility for family time.</span>
+                    </div>
+                </div>
+                
+                <div class="contact-methods">
+                    <a href="mailto:b@candythink.com" class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span class="method-label">Email</span>
+                            <span class="method-value">b@candythink.com</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/lumduan" target="_blank" class="contact-method">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <span class="method-label">GitHub</span>
+                            <span class="method-value">@lumduan</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.tradingview.com/u/candythink/" target="_blank" class="contact-method">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <span class="method-label">TradingView</span>
+                            <span class="method-value">@candythink</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2024 สมชาย เขียนโค้ด - Software Developer Portfolio</p>
+        <div class="container">
+            <p>&copy; 2025 Sarat Sonsuk. Building useful Python libraries with passion and precision.</p>
+            <div class="footer-links">
+                <a href="mailto:b@candythink.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/lumduan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.tradingview.com/u/candythink/" target="_blank"><i class="fas fa-chart-line"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
