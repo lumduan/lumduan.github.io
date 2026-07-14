@@ -3,346 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarat Sonsuk — Quant Trading Systems (SET/TFEX & Crypto) · Candythink</title>
-    <meta name="description" content="Sarat Sonsuk — quantitative trading systems for Thai capital markets (SET/TFEX) and crypto. Operating under Candythink, Complexity Made Sweet.">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Sarat Sonsuk — Quant Trading Systems (SET/TFEX &amp; Crypto)</title>
+    <meta name="description" content="Sarat Sonsuk — quantitative trading systems for Thai capital markets (SET/TFEX) and crypto. Candythink, Complexity Made Sweet.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Sarat Sonsuk</h1>
-                <p class="title">Quant Trading Systems · SET/TFEX &amp; Crypto</p>
-                <p class="subtitle">I build quantitative trading systems — from data infrastructure to live execution — for Thai capital markets (SET/TFEX) and crypto exchanges (Binance, Bitkub). Operating under <strong>Candythink — Complexity Made Sweet</strong>.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-code"></i> View Projects
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i> Get in touch
-                    </a>
-                </div>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <div class="stat-number">5</div>
-                    <div class="stat-label">PyPI libraries</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">900+</div>
-                    <div class="stat-label">SET/mai companies</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">Live</div>
-                    <div class="stat-label">csm-set strategy</div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Sarat Sonsuk</h1>
+            <p class="tagline">Quant Trading Systems · SET/TFEX &amp; Crypto</p>
+            <p class="intro">I build quantitative trading systems — data infrastructure to live execution — for Thai capital markets (SET/TFEX) and crypto (Binance, Bitkub). Operating under Candythink — Complexity Made Sweet.</p>
+            <nav class="social">
+                <a href="https://github.com/lumduan">GitHub</a>
+                <a href="https://www.linkedin.com/in/sarat-sonsuk/">LinkedIn</a>
+                <a href="https://pypi.org/project/tvkit/">PyPI</a>
+                <a href="mailto:b@candythink.com">Email</a>
+            </nav>
+        </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2><i class="fas fa-user"></i> About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="profile-image">
-                        <img src="https://avatars.githubusercontent.com/u/15356949?s=400&v=4" alt="Sarat Sonsuk — Candythink" />
-                    </div>
+        <section id="work">
+            <h2>Work</h2>
+            <table>
+                <thead><tr><th>Repo</th><th>What</th><th>Status</th></tr></thead>
+                <tbody>
+                    <tr><td><a href="https://github.com/lumduan/tvkit">tvkit</a></td><td>Async TradingView market data</td><td>PyPI</td></tr>
+                    <tr><td><a href="https://github.com/lumduan/settfex">settfex</a></td><td>Thai SET/TFEX data, LLM-ready</td><td>PyPI</td></tr>
+                    <tr><td><a href="https://github.com/lumduan/csm-set">csm-set</a></td><td>Cross-sectional momentum on the SET</td><td><strong>live-tested</strong></td></tr>
+                    <tr><td><a href="https://github.com/lumduan/binance-th">binance-th</a></td><td>Async Binance Thailand API</td><td>PyPI</td></tr>
+                    <tr><td><a href="https://github.com/lumduan/thai-securities-data">thai-securities-data</a></td><td>900+ SET/mai companies, free API</td><td>API</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-                    <p>I run a one-person quant trading operation end-to-end — home-lab and AWS active-active infrastructure, a Python execution engine trading TFEX derivatives and crypto, and the research behind it: order-flow signals, market microstructure, and risk-managed automated strategies.</p>
+        <section id="stack">
+            <h2>Stack</h2>
+            <table>
+                <thead><tr><th>Area</th><th>Tools</th></tr></thead>
+                <tbody>
+                    <tr><td>Markets</td><td>SET · TFEX · Binance · Bitkub</td></tr>
+                    <tr><td>Engineering</td><td>Python · Async/Await · Type Safety · Docker · AWS · Home-lab</td></tr>
+                    <tr><td>Research</td><td>Market Microstructure · Order Flow · Risk Management · Open Financial Data</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-                    <p>Self-taught from an early age, I started by scripting small tools to solve the problems in front of me. That habit grew into <strong>Candythink</strong> — my long-term vehicle for building systems rigorous enough for institutional capital and accessible enough for individual investors.</p>
+        <section id="stats">
+            <h2>Stats</h2>
+            <table>
+                <thead><tr><th>Metric</th><th>Value</th><th>Language</th><th>Share</th></tr></thead>
+                <tbody>
+                    <tr><td>Stars</td><td>22</td><td>Python</td><td>80%</td></tr>
+                    <tr><td>Public repos</td><td>42</td><td>JavaScript</td><td>10%</td></tr>
+                    <tr><td>Followers</td><td>9</td><td>TypeScript</td><td>9%</td></tr>
+                    <tr><td>Commits (1y)</td><td>3.9k</td><td>Shell</td><td>&lt;1%</td></tr>
+                    <tr><td>Forks</td><td>7</td><td>Dockerfile</td><td>&lt;1%</td></tr>
+                    <tr><td>Member since</td><td>2015</td><td>CSS</td><td>&lt;1%</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-                    <div class="highlights">
-                        <div class="highlight">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Bangkok, Thailand</span>
-                        </div>
-                        <div class="highlight">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>Self-taught builder</span>
-                        </div>
-                        <div class="highlight">
-                            <i class="fas fa-shield-alt"></i>
-                            <span>Safety-first engineering</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-section">
-                    <h3>Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4>Markets</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag primary">Thai Capital Markets</span>
-                                <span class="skill-tag">SET</span>
-                                <span class="skill-tag">TFEX</span>
-                                <span class="skill-tag">Binance</span>
-                                <span class="skill-tag">Bitkub</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4>Engineering</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag primary">Python</span>
-                                <span class="skill-tag">Async/Await</span>
-                                <span class="skill-tag">Type Safety</span>
-                                <span class="skill-tag">Docker</span>
-                                <span class="skill-tag">AWS</span>
-                                <span class="skill-tag">Home-lab</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4>Research</h4>
-                            <div class="skill-tags">
-                                <span class="skill-tag primary">Market Microstructure</span>
-                                <span class="skill-tag">Order Flow</span>
-                                <span class="skill-tag">Risk Management</span>
-                                <span class="skill-tag">Open Financial Data</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2><i class="fas fa-rocket"></i> Open-Source Work</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="project-meta">
-                            <h3>tvkit</h3>
-                            <p class="project-subtitle">Async TradingView market data library</p>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://pypi.org/project/tvkit/" target="_blank" class="link-btn">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                            <a href="https://github.com/lumduan/tvkit" target="_blank" class="link-btn">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-description">
-                        <p>An async Python library for real-time and historical market data via TradingView — OHLCV price data, financial metrics, and global market coverage. The market-data backbone behind my quant stack.</p>
-
-                        <div class="project-features">
-                            <span class="feature"><i class="fas fa-sync"></i> Async/Await</span>
-                            <span class="feature"><i class="fas fa-database"></i> OHLCV + Metrics</span>
-                            <span class="feature"><i class="fas fa-globe"></i> Global markets</span>
-                        </div>
-                    </div>
-
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">asyncio</span>
-                        <span class="tech-tag">httpx</span>
-                        <span class="tech-tag">PyPI</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-landmark"></i>
-                        </div>
-                        <div class="project-meta">
-                            <h3>settfex</h3>
-                            <p class="project-subtitle">Thai SET/TFEX market data, LLM-ready</p>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://pypi.org/project/settfex/" target="_blank" class="link-btn">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                            <a href="https://github.com/lumduan/settfex" target="_blank" class="link-btn">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-description">
-                        <p>Thai SET and TFEX market data access, designed for AI/LLM function-calling. Built to give retail investors the same quality of market access that institutions take for granted.</p>
-
-                        <div class="project-features">
-                            <span class="feature"><i class="fas fa-landmark"></i> SET + TFEX</span>
-                            <span class="feature"><i class="fas fa-robot"></i> LLM function-calling</span>
-                            <span class="feature"><i class="fas fa-shield-alt"></i> Type-safe</span>
-                        </div>
-                    </div>
-
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">AI/LLM</span>
-                        <span class="tech-tag">Type Hints</span>
-                        <span class="tech-tag">PyPI</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fab fa-bitcoin"></i>
-                        </div>
-                        <div class="project-meta">
-                            <h3>binance-th</h3>
-                            <p class="project-subtitle">Async Binance Thailand API library</p>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://pypi.org/project/binance-th/" target="_blank" class="link-btn">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                            <a href="https://github.com/lumduan/binance-th" target="_blank" class="link-btn">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-description">
-                        <p>An async Python client for the Binance Thailand API, with full type safety — part of the crypto execution side of the quant operation.</p>
-
-                        <div class="project-features">
-                            <span class="feature"><i class="fas fa-sync"></i> Async</span>
-                            <span class="feature"><i class="fas fa-shield-alt"></i> Type-safe</span>
-                            <span class="feature"><i class="fas fa-flag"></i> Thailand exchange</span>
-                        </div>
-                    </div>
-
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Async/Await</span>
-                        <span class="tech-tag">Binance API</span>
-                        <span class="tech-tag">PyPI</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <div class="project-meta">
-                            <h3>csm-set</h3>
-                            <p class="project-subtitle">Cross-sectional momentum · live-tested</p>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/lumduan/csm-set" target="_blank" class="link-btn">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-description">
-                        <p>A cross-sectional momentum strategy on the Stock Exchange of Thailand — currently in live testing and outperforming the market during that period. <em>Backtests lie; live P&amp;L doesn't.</em></p>
-
-                        <div class="project-features">
-                            <span class="feature"><i class="fas fa-circle"></i> Live-tested</span>
-                            <span class="feature"><i class="fas fa-chart-line"></i> Momentum</span>
-                            <span class="feature"><i class="fas fa-shield-alt"></i> Risk-managed</span>
-                        </div>
-                    </div>
-
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Quant</span>
-                        <span class="tech-tag">Backtesting</span>
-                        <span class="tech-tag">Docker</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- GitHub Stats Section -->
-    <section id="github" class="github-stats">
-        <div class="container">
-            <h2><i class="fab fa-github"></i> GitHub Activity</h2>
-            <div class="github-content">
-                <div class="github-cards">
-                    <img src="https://raw.githubusercontent.com/lumduan/lumduan/main/assets/stats.svg" alt="lumduan's GitHub stats" />
-                    <img src="https://raw.githubusercontent.com/lumduan/lumduan/main/assets/languages.svg" alt="top languages" />
-                </div>
-                <div class="github-info">
-                    <h3>Open financial data</h3>
-                    <p>I maintain a growing set of open-source tools that give retail investors the same quality of market access that institutions take for granted — from Thai market data to live-tested strategies.</p>
-                    <a href="https://github.com/lumduan" target="_blank" class="btn btn-primary">
-                        <i class="fab fa-github"></i> View GitHub Profile
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2><i class="fas fa-envelope"></i> Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-text">
-                    <p>Always happy to connect with fellow builders, quant researchers, or anyone thinking seriously about market microstructure, open financial data, or trading infrastructure.</p>
-                </div>
-
-                <div class="contact-methods">
-                    <a href="mailto:b@candythink.com" class="contact-method">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <span class="method-label">Email</span>
-                            <span class="method-value">b@candythink.com</span>
-                        </div>
-                    </a>
-
-                    <a href="https://github.com/lumduan" target="_blank" class="contact-method">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <span class="method-label">GitHub</span>
-                            <span class="method-value">@lumduan</span>
-                        </div>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/sarat-sonsuk/" target="_blank" class="contact-method">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <span class="method-label">LinkedIn</span>
-                            <span class="method-value">/in/sarat-sonsuk</span>
-                        </div>
-                    </a>
-
-                    <a href="https://www.tradingview.com/u/candythink/" target="_blank" class="contact-method">
-                        <i class="fas fa-chart-line"></i>
-                        <div>
-                            <span class="method-label">TradingView</span>
-                            <span class="method-value">@candythink</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Sarat Sonsuk · Candythink — Complexity Made Sweet.</p>
-            <div class="footer-links">
-                <a href="mailto:b@candythink.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/lumduan" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sarat-sonsuk/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
+        <footer>
+            Connect — <a href="mailto:b@candythink.com">Email</a> · <a href="https://github.com/lumduan">GitHub</a> · <a href="https://www.linkedin.com/in/sarat-sonsuk/">LinkedIn</a> · <a href="https://www.tradingview.com/u/candythink/">TradingView</a>
+            <span class="copy">© 2026 Sarat Sonsuk · Candythink — Complexity Made Sweet.</span>
+        </footer>
+    </div>
 </body>
 </html>
